@@ -13,5 +13,7 @@ console.log(strings);
 
 strings.unshift("x"); //insert an element at 0th index : O(n)
 
-strings.splice(2, 0, "alian");
+strings.splice(2, 0, "alian"); // O(n/2)
 console.log(strings);
+//[ 'x', 'a', 'alian', 'b', 'c', 'd', 'e' ]
+//   0    1      2      3    4    5    6
